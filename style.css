@@ -1,0 +1,97 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+html {
+    scroll-behavior: smooth;
+ }
+.navbar ul li a:hover {
+ background-color: #52b69a8c;
+}
+
+.carousel-item {
+    height:80vh!important;
+}
+
+.carousel-item img {
+    object-fit: cover !important; 
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .carousel-inner {
+        position: relative !important;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .services {
+        position: absolute !important;
+        top: 67% !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .about {
+        padding-top: 6% !important;
+        
+    }
+}
+
+.custom-hover:hover {
+    color: #ffffff !important; 
+    background-color: #30a0bc; 
+    border-color: #34aac7d1 !important;
+}
+.login-hover:hover {
+    color: #10527b !important; 
+    background-color: rgba(30, 133, 40, 0.54); 
+    /* border-color: #ffffff !important; */
+}
+.custom-link:hover {
+    text-decoration: underline!important;
+    color: rgb(0, 171, 120)!important;
+}
+.line1{
+    height: 6px;
+    background-color: #ffffff;
+}
+.line2{
+    height: 6px;
+    background-color: #4ea3b8e9;
+}
+.parallax-1{
+    background: url('./Images/parallax.png') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+.parallax-inner{
+    padding: 2% 0;
+}
+@media (min-width: 640px) {
+    .parallax-1 .carousel-item{
+        height: 50% !important;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .parallax-1 .carousel-item{
+        height: 50% ;
+        width: 40vw;
+    }
+}
+.headLine{
+    background-image: linear-gradient(328deg, rgba(29, 29, 29, 0.05) 0%, rgba(29, 29, 29, 0.05) 25%,rgba(226, 226, 226, 0.05) 25%, rgba(226, 226, 226, 0.05) 50%,rgba(21, 21, 21, 0.05) 50%, rgba(21, 21, 21, 0.05) 75%,rgba(216, 216, 216, 0.05) 75%, rgba(216, 216, 216, 0.05) 100%),linear-gradient(172deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 25%,rgba(108, 108, 108, 0.05) 25%, rgba(108, 108, 108, 0.05) 50%,rgba(21, 21, 21, 0.05) 50%, rgba(21, 21, 21, 0.05) 75%,rgba(236, 236, 236, 0.05) 75%, rgba(236, 236, 236, 0.05) 100%),linear-gradient(207deg, rgba(153, 153, 153, 0.05) 0%, rgba(153, 153, 153, 0.05) 25%,rgba(83, 83, 83, 0.05) 25%, rgba(83, 83, 83, 0.05) 50%,rgba(5, 5, 5, 0.05) 50%, rgba(5, 5, 5, 0.05) 75%,rgba(82, 82, 82, 0.05) 75%, rgba(82, 82, 82, 0.05) 100%),linear-gradient(297deg, rgba(26, 26, 26, 0.05) 0%, rgba(26, 26, 26, 0.05) 25%,rgba(223, 223, 223, 0.05) 25%, rgba(223, 223, 223, 0.05) 50%,rgba(232, 232, 232, 0.05) 50%, rgba(232, 232, 232, 0.05) 75%,rgba(153, 153, 153, 0.05) 75%, rgba(153, 153, 153, 0.05) 100%),linear-gradient(204deg, rgba(120, 120, 120, 0.05) 0%, rgba(120, 120, 120, 0.05) 25%,rgba(191, 191, 191, 0.05) 25%, rgba(191, 191, 191, 0.05) 50%,rgba(246, 246, 246, 0.05) 50%, rgba(246, 246, 246, 0.05) 75%,rgba(123, 123, 123, 0.05) 75%, rgba(123, 123, 123, 0.05) 100%),linear-gradient(90deg, rgb(22,234,255),rgb(59,131,255));
+}
+
+.departments{
+    box-shadow: 10px -8px 20px rgba(176, 218, 231, 0.295);
+}
+
+

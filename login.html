@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    
+    <link rel="shortcut icon" href="./Images/favicon_logo.jpg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./Images/favicon_logo.jpg">
+<link rel="stylesheet" href="style.css">
+
+    <!-- CDN link for Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  </head>
+
+  <body>
+
+<header class=" bg-info-subtle fs-5">
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid  ">
+              <img src="./Images/logo.png" alt="logo" width="50px" class="me-4">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active me-2" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle me-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About
+                  </a>
+                  <ul class="dropdown-menu rounded-0 ">
+                    <li><a class="dropdown-item " href="#">About Us</a></li>
+                    <li><a class="dropdown-item" href="#">Our Mission & Vision</a></li>
+                    <li><a class="dropdown-item" href="#">Awards & Recognition</a></li>
+                    <li><a class="dropdown-item" href="#">International Patients</a></li>
+                    <li><a class="dropdown-item" href="#">Management Team</a></li>
+                    <li><a class="dropdown-item" href="#">Chairman Message</a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle  me-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Departments
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./departments.html">All Departments</a></li>
+                    <li><a class="dropdown-item" href="#">Urology</a></li>
+                    <li><a class="dropdown-item" href="#">Neurology</a></li>
+                    <li><a class="dropdown-item" href="#">Pediatric</a></li>
+                    <li><a class="dropdown-item" href="#">Psychiatry</a></li>
+                    <li><a class="dropdown-item" href="#">Gastroenterology</a></li>
+                    <li><a class="dropdown-item" href="#">Cardiology</a></li>
+                    <li><a class="dropdown-item" href="#">Oncology</a></li>
+                  </ul>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link  me-2 " aria-current="page" href="#">Find a Doctor</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-2 " aria-current="page" href="#">International Patients</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle  me-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Media
+                </a>
+                <ul class="dropdown-menu rounded-0 ">
+                  <li><a class="dropdown-item" href="#">Gallery</a></li>
+                  <li><a class="dropdown-item" href="#">Video Gallery</a></li>
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">News</a></li>
+                  <li><a class="dropdown-item" href="#">Notice & Events</a></li>
+                </ul>
+              </li>
+                <li class="nav-item">
+                  <a class="nav-link  me-2" aria-current="page" href="#">Contact Us</a>
+                </li>
+                <!-- <li class="nav-item "> -->
+                  <span class="">
+                  <a class="nav-link   me-2 " aria-current="page" href="#"><button class="custom-hover btn border-secondary rounded-0 fw-semibold">Book an Appointment</button></a>
+      
+                </span>
+                <!-- </li> -->
+              </ul>
+              <div class="btns">
+                <a href="./login.html" class="login-hover btn  border-success fw-semibold">Login</a>
+                <a href="./signup.html" class="btn btn-success fw-semibold">Sign Up</a>
+              </div>
+            </div>
+          </div>
+  
+        </nav>
+</header>
+
+<main>
+    
+    <div class="d-flex my-5 mx-4">
+        <div class="Loginform col-md-12 d-md-flex justify-content-evenly p-3 shadow rounded">
+
+            <form action="#" class="bg-secondary-subtle rounded p-4 col-md-4">
+                <h2 class="text-center text-primary">Login</h2>
+                
+                <div class="form-floating mb-3">
+                    <input type="email" id="email" placeholder="" class="form-control">
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="password" id="password" placeholder="" class="form-control">
+                    <label for="password">Password</label>
+                </div>
+                <div class="form-floating mt-5">
+                    <input type="submit" value="Login" placeholder="" class="fs-4 w-100 btn btn-primary">
+                </div>
+                <!-- <a class="text-center mt-3 cursor-pointer">Forgot Password?</a> -->
+                <h5 class="text-center mt-3 "><a href="" class="text-decoration-none">Forgot Password?</a></h5>
+            </form>
+           </div>
+    </div>
+
+</main>
+
+<footer class="bg-info-subtle">
+    <section class="container d-flex justify-content-between flex-wrap  ">
+      <div class="section-contact fw-semibold col-md-4 col-sm-10 ">
+        <img src="./Images/logo.png" alt="logo" width="130px" >
+        <div class="details  fs-5">
+          Balkumari, Lalitpur, Nepal<br>
+          Email: info@SuSwasta.com<br>
+          WhatsApp/ Viber: +977-98238888881<br>
+          24/7 Customer Hotline: +977- 01- 59711321M<br>
+          Helicopter & Air Ambulance: +977-98012851231<br>
+        </div>
+          <div class="socials d-flex fs-4">
+        
+          <i class="bi bi-facebook mx-2"></i>
+          <i class="bi bi-instagram mx-2"></i>
+          <i class="bi bi-youtube mx-2"></i>
+          <i class="bi bi-linkedin mx-2"></i>
+          <i class="bi bi-twitter-x mx-2"></i>
+        </div>
+       </div>
+      <div class="section-overview mt-3 col-md-3 col-sm-10 d-flex flex-column align-items-center ">
+        <ul class="list-unstyled">
+            <h3>Overview</h3><br>
+            <li>
+            <a href="" class="text-decoration-none text-reset custom-link fs-5">  Hospital Overview </a>
+            </li>
+            <li>
+            <a href="" class="text-decoration-none text-reset custom-link fs-5">  Medical Technology </a>
+            </li>
+            <li>
+            <a href="" class="text-decoration-none text-reset custom-link fs-5">  Hospital Overview </a>
+            </li>
+            <li>
+            <a href="" class="text-decoration-none text-reset custom-link fs-5">  Specialities </a>
+            </li>
+            <li>
+            <a href="" class="text-decoration-none text-reset custom-link fs-5"> Team </a>
+            </li>
+            <li>
+            <a href="" class="text-decoration-none text-reset custom-link fs-5"> Quality and Safety</a>
+            </li>
+            <li>
+            <a href="" class="text-decoration-none text-reset custom-link fs-5">Testimonials</a>
+            </li>
+            <li>
+            <a href="" class="text-decoration-none text-reset custom-link fs-5"> Academic</a>
+            </li>
+          </ul>
+      </div>
+      <div class="section-services mt-3 col-md-3 col-sm-10 d-flex flex-column align-items-center">
+        <ul class="list-unstyled">
+              <h3>Our Services</h3><br>
+              <li>
+              <a href="" class="text-decoration-none text-reset custom-link fs-5"> Emergency Services</a>
+              </li>
+              <li>
+              <a href="" class="text-decoration-none text-reset custom-link fs-5">  Pharmacy </a>
+              </li>
+              <li>
+              <a href="" class="text-decoration-none text-reset custom-link fs-5"> Immigration Medical Examination </a>
+              </li>
+              <li>
+              <a href="" class="text-decoration-none text-reset custom-link fs-5">   International Patients at Norvic </a>
+              </li>
+              <li>
+              <a href="" class="text-decoration-none text-reset custom-link fs-5">   Air Evacuation </a>
+              </li>
+              <li>
+              <a href="" class="text-decoration-none text-reset custom-link fs-5">  Preventive Health Care</a>
+              </li>
+              <li>
+              <a href="" class="text-decoration-none text-reset custom-link fs-5"> Rooms</a>
+              </li>
+              <li>
+              <a href="" class="text-decoration-none text-reset custom-link fs-5">  Contact Us</a>
+              </li>
+            </ul>
+      </div>
+       
+    </section>
+    <section>
+      <div class="border-top"></div>
+      <h6 class="text-center p-2">Copyright © 2024 SuSwasta Care. Powered by Nepal Tech</h6>
+    </section>
+    </footer>
+</body>
+
+
+
+
+<!-- CDN js for Bootstrap  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+  
+</body>
+</html>
